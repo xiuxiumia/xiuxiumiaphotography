@@ -105,27 +105,44 @@
     </nav>
   </header>
   <!-- Content -->
-  <div class="container mx-auto">
-    <h1 class="text-4xl pt-10 pb-8 font-bold">HOMEPAGE</h1>
-      <section class="text-neutral-700">
-       <div class="relative max-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg">
-       <div class="slideshow-container relative w-full h-[500px]">
-        <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-             src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true" alt="Graduation 1">
-        <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-             src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true" alt="Graduation 2">
-        <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
-            src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true" alt="Graduation 3">
+  <div class="container mx-auto text-neutral-800">
+  <!-- Hero Slideshow Section -->
+  <section class="relative w-full h-[550px] overflow-hidden rounded-lg shadow-lg mt-10">
+    <!-- Slideshow -->
+    <div class="slideshow-container relative w-full h-full">
+      <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+        src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true" alt="Graduation 1">
+      <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+        src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true" alt="Graduation 2">
+      <img class="mySlides absolute w-full h-full object-cover opacity-0 transition-opacity duration-1000"
+        src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true" alt="Graduation 3">
     </div>
 
-    <!-- Optional: navigation buttons -->
-    <button onclick="plusSlides(-1)"
-      class="absolute top-1/2 left-4 -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/60">❮</button>
-    <button onclick="plusSlides(1)"
-      class="absolute top-1/2 right-4 -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/60">❯</button>
-  </div>
-</section>
-  </div>
+    <!-- Overlay Text -->
+    <div class="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-white text-center px-4">
+      <h1 class="text-5xl font-bold mb-4 tracking-wide">Xiuhan Photography</h1>
+      <p class="text-lg mb-6 max-w-xl">Capturing authentic, documentary-style moments filled with light and emotion.</p>
+      <div class="space-x-4">
+        <a href="gallery.html" class="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition">View Gallery</a>
+        <a href="contact.html" class="bg-transparent border border-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition">Contact</a>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button onclick="plusSlides(-1)" class="absolute top-1/2 left-4 -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/60">❮</button>
+    <button onclick="plusSlides(1)" class="absolute top-1/2 right-4 -translate-y-1/2 bg-black/40 text-white p-3 rounded-full hover:bg-black/60">❯</button>
+  </section>
+
+  <!-- About Section -->
+  <section class="text-center py-16 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-semibold mb-4">Welcome</h2>
+    <p class="text-gray-700 leading-relaxed mb-6">
+      Hi, I’m <span class="font-semibold">Xiuhan</span> — a photographer passionate about capturing real and unposed emotions.
+      Whether it’s a graduation, wedding, or a quiet afternoon with friends, I aim to tell your story through natural light and authentic moments.
+    </p>
+    <a href="about.html" class="text-blue-600 font-medium hover:underline">Learn more about me →</a>
+  </section>
+</div>
 
   <!-- Footer -->
   <footer>
