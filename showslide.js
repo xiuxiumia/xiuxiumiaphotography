@@ -18,4 +18,4 @@ function showSlidesManual(n) {
 }
 
 // Auto-slide every 5 seconds
-setInterval(() => plusSlides(1), 5000);
+setInterval(() => plusSlides(1), 3000);
