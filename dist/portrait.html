@@ -104,36 +104,52 @@
     </nav>
   </header>
   <!-- Portrait Gallery -->
-  <div class="container mx-auto">
-    <h1 class="text-4xl font-bold mb-8">Portrait Gallery</h1>
-     <div class="container w-full">
-      
-      <!-- Photo 1 -->
-      <a data-fancybox="gallery"
-         href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true">
-        <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true"
-             alt="Tayla Graduation"
-             class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-500" />
-      </a>
+<!-- Portrait Gallery -->
+<div class="container mx-auto px-4 py-10">
+  <h1 class="text-4xl font-bold mb-10 text-center">Portrait Gallery</h1>
 
-      <!-- Photo 2 -->
-      <a data-fancybox="gallery"
-         href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true">
-        <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true"
-             alt="Nikkie Graduation"
-             class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-500" />
-      </a>
+  <!-- Responsive photo grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-      <!-- Photo 3 -->
-      <a data-fancybox="gallery"
-         href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true">
-        <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true"
-             alt="Blessing Graduation"
-             class="w-full h-72 object-cover rounded-lg shadow-md hover:scale-105 transition-transform duration-500" />
-      </a>
+    <!-- Photo 1 -->
+    <a data-fancybox="gallery"
+       href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true"
+       data-caption="Tayla Graduation">
+      <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Tayla%20Graduation.JPEG?raw=true"
+           alt="Tayla Graduation"
+           class="w-full h-72 object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-500" />
+    </a>
 
-    </div>
+    <!-- Photo 2 -->
+    <a data-fancybox="gallery"
+       href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true"
+       data-caption="Nikkie Graduation">
+      <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Nikkie%20Graudation.JPG?raw=true"
+           alt="Nikkie Graduation"
+           class="w-full h-72 object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-500" />
+    </a>
+
+    <!-- Photo 3 -->
+    <a data-fancybox="gallery"
+       href="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true"
+       data-caption="Blessing Graduation">
+      <img src="https://github.com/xiuxiumia/xiuxiumiaphotography/blob/main/Photos/Blessing%20Graduation.JPEG?raw=true"
+           alt="Blessing Graduation"
+           class="w-full h-72 object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-500" />
+    </a>
+
+    <!-- Add more photos easily by repeating this block -->
+    <!-- Example:
+    <a data-fancybox="gallery"
+       href="FULL_IMAGE_URL"
+       data-caption="Caption Here">
+      <img src="THUMBNAIL_URL"
+           alt="Description"
+           class="w-full h-72 object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-500" />
+    </a>
+    -->
   </div>
+</div>
 
   <!-- Footer -->
   <footer class="text-center py-10 text-sm text-gray-500">
